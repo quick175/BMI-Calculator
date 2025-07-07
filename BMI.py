@@ -7,7 +7,7 @@ unit=''
 xs=input("Do you want to quit program?(Y/N)").upper()
 
 Unit1=["Supported Weight Units-kg,lb"]
-Unit2=["m,cm,in"]
+Unit2=["m","cm","in"]
 print(Unit1)
 print(Unit2)
 
