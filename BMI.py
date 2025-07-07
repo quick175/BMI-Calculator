@@ -13,8 +13,8 @@ print(Unit2)
 
 
 def unity():
-    unit = input("Unit used for height ===> ").lower()
-    wcalc = input("Unit used for weight ===> ").lower()
+	unit = input("Unit used for height ===> ").lower()
+	wcalc = input("Unit used for weight ===> ").lower()
 	listingunits = ["kg", "lb"]
 	if wcalc in listingunits:
 		y = listingunits.index(wcalc)
@@ -36,15 +36,20 @@ def loading():
 		time.sleep(0.1)
 	print('\r\033[K', end='')
 	return()
-	
+
 listofunits = ["m" ,"ft", "cm"]
+
+
 if unit in listofunits:
-     	x = listofunits.index(unit)
-    	print(f"You selected unit: {listofunits[x]}")
+	 	
+		x = listofunits.index(unit)
+		print(f"You selected unit: {listofunits[x]}")
+
+
 else:
-    print(f"{unit} is invalid")
-    exit()
-	
+	print(f"{unit} is invalid")
+	exit()
+
 if unit=="cm":
 	height= height(float) *100
 elif unit=="m":
@@ -55,31 +60,14 @@ k=height*height
 bmi = weight / k
 loading()
 print("Your BMI is: ", bmi)
-	
-	
-
-	
-	
-	
-	
-"""stop=len(Unit2)
-	for i in range(stop):
-		if Unit2[i] == unit:
-			print(unit,"is valid")
-		else:
-			print(unit,"is invalid")
-			exit()"""
-
-
-
 
 if xs == "Y":
 	exit()
 
 else:
-	
+
 	we=input("(Number only) Weight ===> ")
 	height=input("(Number only) Height===> ")
-	
+
 	unity()
 
