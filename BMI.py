@@ -45,7 +45,7 @@ else:
     print(f"{unit} is invalid")
     exit()
 	
-if unit="cm":
+if unit=="cm":
 	height= height(float) *100
 elif unit=="m":
 	height=float(height)
