@@ -2,7 +2,7 @@ print("Welcome To the Python BMI Calculator Program")
 
 global unit
 
-unit=str
+unit=str(unit)
 
 xs=input("Do you want to quit program?(Y/N)").upper()
 
